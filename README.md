@@ -1,5 +1,6 @@
-绝大多数标本馆都会使用 excel 数据表格作为存储、分享数据的媒介，也会使用文件夹存放或整理标本的照片。对于很多缺乏技术支持的标本馆，这些手段可能是他们管理标本数据唯一有效的方法，而对于一些中大型植物标本馆，这些形式也是数据生产过程中非常重要的初始或中间形态。标本馆助手（iHerbarium）是专为标本馆开发的一款桌面小程序，它基于 [ipybd 框架](https://github.com/leisux/ipybd)，可以大幅提高标本处理流程中诸如标签打印、数据整理、数据转化等工作的效率和品质。
+绝大多数标本馆都会使用 excel 表格作为存储、分享数据的媒介，也会使用文件夹存放或整理标本的照片。对于很多缺乏技术支持的标本馆，这些手段可能是管理标本数据唯一有效的方法；而对于一些大中型植物标本馆，这些形态也是数据生产过程中非常重要的中间形式。处理它们经常会耗费大量的人力资源，单纯的人工往往也很难达到理想的效果。标本馆助手（iHerbarium）就是为了解决这一问题而产生的。
 
+iHerbarium 是一款 Windows 桌面小程序，主要基于 [ipybd 框架](https://github.com/leisux/ipybd)开发，能够辅助标本馆提高标本处理流程中诸如标签打印、格式转换、照片命名、数据清洗等工作的效率和品质。
 
 ### 一、照片条形码识别并命名
 
@@ -20,7 +21,8 @@
 
 ### 四、数据表转换
 
-- 基于 ipybd，iherbarium 支持绝大多数二维 excel 数据表转化为 CVH、Kingdonia、DarwinCore、标签打印规范的数据表，这在应对多种来源的数据表时非常有用。
+- iherbarium 支持绝大多数二维 excel 数据表转化为 CVH、Kingdonia、DarwinCore、标签打印规范的数据表，这在应对多种来源的数据表时非常有用。
+- iHerbarium 的表格转换能力来自于 ipybd，有关数据表格式转换的引导操作，请见 [ipybd 标准字段名映射]([leisux/ipybd: Powerful Data Cleaner For Biodiversity (github.com)](https://github.com/leisux/ipybd#43-标准字段名映射引导))的介绍。
 
 ### 五、使用
 
@@ -37,7 +39,7 @@
 
 ### 七、支持
 
-如果你觉得这款软件值得支持我一杯咖啡，你可以扫下面的微信码：
+如果觉得这款软件值得支持我一杯咖啡，可以使用微信扫描下面的 QR 码～
 
 <div>
   <img src="https://tva1.sinaimg.cn/large/e6c9d24ely1h26txtps4uj20na0mq0v4.jpg" width="230" style="display:block; margin:0 auto;"/>
