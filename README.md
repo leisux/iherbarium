@@ -17,7 +17,6 @@
 - 条码编排：每个标签上的条形码编号可以在 excel 内预先指定，也可以让程序按照一定的规则从某一起始编号按序编排（不重复），程序会以 Code128 将其转换成条形码。
 - 使用教程：如果你对程序引导仍然感到陌生，请[请戳这里](https://mp.weixin.qq.com/s/h4G32OU6Sh8ko1t6_f87FA)查看细致的标签打印教程。
 - 标签定制：若需要定制标签模板，可提交详细的 issue 或者 e-mail。
-- 
 
 ### 四、数据表转换
 
@@ -43,4 +42,3 @@
 <div>
   <img src="https://tva1.sinaimg.cn/large/e6c9d24ely1h26txtps4uj20na0mq0v4.jpg" width="230" style="display:block; margin:0 auto;"/>
 </div>
-
