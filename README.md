@@ -30,13 +30,11 @@
 
 ### 六、引用
 
-如果你需要将其发表在文献中，请使用以下参考格式：
+如果你需要将其发表在文献中，你可以参考以下两种形式：
 
-**中文：**
-*徐洲锋. 标本馆助手, V1.9[CP]. 广州: 中国科学院华南植物园, 2022.https://github.com/leisux/iherbarium*
+1. *徐洲锋. 标本馆助手, V1.9[CP]. 广州: 中国科学院华南植物园, 2022. https://github.com/leisux/iherbarium*
 
-**English：**
-*Xu Zhoufeng(2022). iHerbarium(Version 1.9)[Software]. Guangzhou: South China Botanical Garden, CAS. https://github.com/leisux/iherbarium*
+2. *Xu Zhoufeng(2022). iHerbarium(Version 1.9)[Software]. Guangzhou: South China Botanical Garden, CAS. https://github.com/leisux/iherbarium*
 
 ### 七、支持
 
