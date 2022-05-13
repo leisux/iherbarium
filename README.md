@@ -42,7 +42,7 @@
 
 如果你觉得这款软件值得请一杯咖啡，请微信扫码：
 
-<span style="text-align:center">
-  <img src="https://tva1.sinaimg.cn/large/e6c9d24ely1h26txtps4uj20na0mq0v4.jpg" width="250"/>
-</span>
+<div>
+  <img src="https://tva1.sinaimg.cn/large/e6c9d24ely1h26txtps4uj20na0mq0v4.jpg" style="display:block; width:230; margin:0 auto;"/>
+</div>
 
