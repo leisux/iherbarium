@@ -41,5 +41,5 @@ iHerbarium 是一款 Windows 桌面小程序，主要基于 [ipybd 框架](https
 
 如果认为这款软件值得支持我一杯咖啡，可以使用微信扫描下面的 QR 码～
 
-<img src="https://tva1.sinaimg.cn/large/e6c9d24ely1h26txtps4uj20na0mq0v4.jpg" width="230" />
+<img src="https://cloudfile.biotracks.cn/institutionLog/WeChat.png" width="300" />
 
