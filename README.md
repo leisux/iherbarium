@@ -5,7 +5,8 @@ iHerbarium 是一款 Windows 桌面小程序，主要基于 [ipybd 框架](https
 ### 一、照片条形码识别并命名
 
 - 可以识别图片内的条形码，并以此命名图片，识别默认基于 zbar ，也可自行安装 JDK8 后联合 pyzxing 扩大支持的编码类型；这一功能特别适合被用于已贴附条形码的植物标本照片进行自动命名。
-- 使用 Nikon 拍摄的 nef 原片，和相应的 jpg 在同一文件见内，程序会同时以条形码命名 nef 文件；这对于使用 RAW 格式保存标本原片的标本馆非常有用。
+- 使用 Nikon 拍摄的 nef 原片，和相应的 jpg 在同一文件见内，程序会同时以条形码命名 nef 文件；
+- 使用 DNG 保存的原片，可以直接提取 DNG 中提取用于预览的 jpg 照片，提取的 jpg 照片与 DNG 处于同一目录，识别 jpg 条形码时，可以同步重命名相应的 DNG 文件名。
 
 ### 二、照片提取
 
@@ -21,19 +22,20 @@ iHerbarium 是一款 Windows 桌面小程序，主要基于 [ipybd 框架](https
 
 ### 四、数据表转换
 
-- iherbarium 支持绝大多数二维 excel 数据表转化为 CVH、Kingdonia、DarwinCore、标签打印规范的数据表，这在应对多种来源的数据表时非常有用。
+- iherbarium 支持绝大多数二维 excel 数据表转化为 CVH、BioGrid、DarwinCore、标签打印规范的数据表，这在应对多种来源的数据表时非常有用。
 - iHerbarium 的表格转换能力来自于 ipybd，有关数据表格式转换的引导操作，请见 [ipybd 标准字段名映射]([leisux/ipybd: Powerful Data Cleaner For Biodiversity (github.com)](https://github.com/leisux/ipybd#43-标准字段名映射引导))的介绍。
+- 我们在文件中推荐了一种 Excel 收集各类植物标本采集数据的规范，它可以用于标本馆对外的数据规范要求，配合软件使用可大幅简化数据管理工作。
 
 ### 五、使用
 
-- Windows 用户：iHerbarium 二进制包是由 Python 脚本经 Pyinstaller 编译输出，因此可直接下载 Realse 版本，解压 zip 文件，后进入 iherbarium 文件夹，运行 iherbarium.exe 即可。
-- 其他/DIY用户：可自行下载脚本，配置环境运行。
+- Windows 用户：iHerbarium 二进制包是由 Python 脚本经 Pyinstaller 编译输出，可直接下载 zip 文件解压后运行 iherbarium.exe 即可。
+- 其他/DIY用户：可自行下载 source 文件夹，配置环境运行。
 
 ### 六、引用
 
 如果你需要将其发表在文献中，你可以参考以下两种形式：
 
-1. *徐洲锋. 标本馆助手, V1.9[CP]. 广州: 中国科学院华南植物园, 2022. https://github.com/leisux/iherbarium*
+1. *徐洲锋. 标本馆助手, V2.0[CP]. 广州: 中国科学院华南植物园, 2023. https://github.com/leisux/iherbarium*
 
 2. *Xu Zhoufeng(2022). iHerbarium(Version 1.9)[Software]. Guangzhou: South China Botanical Garden, CAS. https://github.com/leisux/iherbarium*
 
@@ -41,5 +43,5 @@ iHerbarium 是一款 Windows 桌面小程序，主要基于 [ipybd 框架](https
 
 如果认为这款软件值得支持我一杯咖啡，可以使用微信扫描下面的 QR 码～
 
-<img src="https://cloudfile.biotracks.cn/institutionLog/WeChat.png" width="300" />
+<img src="./support.png" width="300" />
 
