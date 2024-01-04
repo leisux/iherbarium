@@ -1,6 +1,5 @@
-绝大多数标本馆都会使用 excel 表格作为存储、分享数据的媒介，也会使用文件夹存放或整理标本的照片。对于很多缺乏技术支持的标本馆，这些手段可能是管理标本数据唯一有效的方法；而对于一些大中型植物标本馆，这些形态也是数据生产过程中非常重要的中间形式。处理它们经常会耗费大量的人力资源，单纯的人工往往也很难达到理想的效果。标本馆助手（iHerbarium）就是为了解决这一问题而产生的。
 
-iHerbarium 是一款 Windows 桌面小程序，主要基于 [ipybd 框架](https://github.com/leisux/ipybd)开发，能够辅助标本馆提高标本处理流程中诸如标签打印、格式转换、照片命名、数据清洗等工作的效率和品质。
+iHerbarium 是一款能够能够大幅提高植物标本处理流程中诸如**影像管理、数据清洗、数据整合、标签打印**等工作效率和品质的专业软件。
 
 ### 一、照片条形码识别并命名
 
@@ -37,7 +36,7 @@ iHerbarium 是一款 Windows 桌面小程序，主要基于 [ipybd 框架](https
 
 1. *徐洲锋. 标本馆助手, V2.0[CP]. 广州: 中国科学院华南植物园, 2023. https://github.com/leisux/iherbarium*
 
-2. *Xu Zhoufeng(2022). iHerbarium(Version 1.9)[Software]. Guangzhou: South China Botanical Garden, CAS. https://github.com/leisux/iherbarium*
+2. *Xu Zhoufeng(2023). iHerbarium(Version 2.0)[Software]. Guangzhou: South China Botanical Garden, CAS. https://github.com/leisux/iherbarium*
 
 ### 七、支持
 
